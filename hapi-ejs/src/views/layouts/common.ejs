@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <h3>this is layout/common.ejs</h3>
+  <hr>
+
+  <header style='border:solid 1px;'>
+      <%- include('../partials/header') %>
+  </header>
+
+  <section style='border:solid 1px; margin:10px;'>
+      <%- body %>
+  </section>
+
+  <footer style='border:solid 1px;'>
+      <%- include('../partials/footer') %>
+  </footer>
+
+</body>
+</html>

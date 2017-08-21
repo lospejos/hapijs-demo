@@ -1,0 +1,14 @@
+{
+  "name": "hapi-ejs",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node ./script/test.js",
+    "start": "node ./script/start.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "hapi": "^16.5.2",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {}
+}
