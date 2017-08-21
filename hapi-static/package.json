@@ -1,0 +1,13 @@
+{
+  "name": "hapi-static",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node ./script/test.js",
+    "start": "node ./script/start.js"
+  },
+  "dependencies": {
+    "hapi": "^16.5.2",
+    "inert": "^4.2.1"
+  },
+  "devDependencies": {}
+}
