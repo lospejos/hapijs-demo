@@ -1,0 +1,13 @@
+{
+  "name": "hapi-api",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node ./script/test.js",
+    "start": "node ./script/start.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "hapi": "^16.5.2"
+  },
+  "devDependencies": {}
+}
